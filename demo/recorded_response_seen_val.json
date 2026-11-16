@@ -1,0 +1,104 @@
+{
+  "call_id": "u2027_00160:call0000",
+  "facts": [
+    {
+      "object": {
+        "type": "ticket",
+        "name": "заявка 5190"
+      },
+      "attribute": "ticket_status",
+      "value": "принята",
+      "polarity": 1,
+      "speaker": "operator",
+      "valid_from": "2026-01-28",
+      "valid_to": "2026-01-30",
+      "source": {
+        "turn_idx": 4,
+        "span": [
+          63,
+          97
+        ],
+        "quote": "была принята и до кынца прошлой недели"
+      },
+      "confirmed": true
+    },
+    {
+      "object": {
+        "type": "ticket",
+        "name": "заявка 5190"
+      },
+      "attribute": "ticket_status",
+      "value": "в работе",
+      "polarity": 1,
+      "speaker": "operator",
+      "valid_from": "2026-01-30",
+      "valid_to": null,
+      "source": {
+        "turn_idx": 6,
+        "span": [
+          131,
+          161
+        ],
+        "quote": "заявка 5190 — в работе,"
+      },
+      "confirmed": true
+    },
+    {
+      "object": {
+        "type": "client",
+        "name": "Катерина Сергеевна"
+      },
+      "attribute": "agreement",
+      "value": "выезд специалиста",
+      "polarity": 1,
+      "speaker": "client",
+      "valid_from": "2026-02-11",
+      "valid_to": null,
+      "source": {
+        "turn_idx": 9,
+        "span": [
+          100,
+          130
+        ],
+        "quote": "Ну хорошо Да подходит"
+      },
+      "confirmed": true
+    },
+    {
+      "object": {
+        "type": "client",
+        "name": "Катерина Сергеевна"
+      },
+      "attribute": "agreement",
+      "value": "специалист позвонит перед приездом",
+      "polarity": 1,
+      "speaker": "client",
+      "valid_from": "2026-02-04",
+      "valid_to": null,
+      "source": {
+        "turn_idx": 9,
+        "span": null,
+        "quote": null
+      },
+      "confirmed": true
+    },
+    {
+      "object": {
+        "type": "client",
+        "name": "Катерина Сергеевна"
+      },
+      "attribute": "agreement",
+      "value": "переносить не будут, договорённость в системе",
+      "polarity": 1,
+      "speaker": "operator",
+      "valid_from": "2026-02-04",
+      "valid_to": null,
+      "source": {
+        "turn_idx": 12,
+        "span": null,
+        "quote": null
+      },
+      "confirmed": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "trial": "A_official_train_val_r32_run01",
+  "source": "run.log in the verified original A RESULT.zip",
+  "reply_sampling": {
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95,
+    "bos_token_id": 151643
+  },
+  "archive_identity_note": "The saved configuration declared do_sample=false. The library log records the effective override."
+}

@@ -1,0 +1,23 @@
+{
+  "calls": 383,
+  "matching_frozen_repair_outputs": 383,
+  "variant": "A_official_train_val_r32",
+  "weights_verified": true,
+  "verified_A_metrics_manifest_files": 39,
+  "evidence_issues_on_saved_outputs": 1092,
+  "seen_val_after_http_validation": {
+    "metrics_version": "2.1",
+    "n_calls": 383,
+    "n_gold_facts": 1845,
+    "n_pred_facts": 1914,
+    "fact_precision": 0.592,
+    "fact_recall": 0.6141,
+    "temporal_recall": 0.5538,
+    "n_temporal": 679,
+    "state_accuracy": 0.5778,
+    "n_state": 623,
+    "grounding_turn": 0.8235,
+    "grounding_span": 0.9612,
+    "n_grounded": 1133
+  }
+}

@@ -1,0 +1,7 @@
+mode,parameters,temporal_k,temporal_n,temporal_recall,state_k,state_n,scope
+200M candidate,200000000,,,,,,unmeasured_target_size
+Span extractor,606142464,178,679,0.2622,351,623,official_val_excluded_from_fit
+Span + repair,606142464,308,679,0.4536,352,623,official_val_excluded_from_fit
+Span + repair + temporal r32 control,1222377472,355,679,0.5228,360,623,official_val_excluded_from_fit
+Span + repair + temporal r32 A,1222377472,376,679,0.5538,360,623,official_val_in_fit_seen_val
+GLM-5.3 official baseline,744000000000,208,442,0.4706,333,623,official_baseline_different_matching

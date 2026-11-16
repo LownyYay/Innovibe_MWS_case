@@ -1,0 +1,10 @@
+{
+  "trial_id": "A_official_train_val_r32",
+  "result_zip_sha256": "eb1f980b3fad1eb811a69320fecbbcc5ae135da419b4987284920939d6f4bee0",
+  "adapter_sha256": "7ac70a5fa8910c9f22e62e18f653da9490b77b25dba3119fc5aa51ea4439f192",
+  "evaluation_scope": {
+    "dev": "seen_in_temporal_training",
+    "official_val": "seen_in_temporal_training"
+  },
+  "extractor_sha256": "cf31a305d612571fbc971398b33fd8bcec135354e1b7730aadd4a1eded05a7a1"
+}

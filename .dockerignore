@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!inference/
+!inference/**
+!weights/
+!weights/**
+!artifact_identity.json
+!requirements.txt
+**/__pycache__

@@ -1,0 +1,98 @@
+{
+  "docker_image": "compactfact:a",
+  "image_id": "sha256:e85a1db633f9b45a889ee86ab914450b484ec9b7babdbf5048397f5c01bceaf4",
+  "device": "cpu",
+  "readiness": {
+    "status": "ready",
+    "variant": "A_official_train_val_r32",
+    "mode": "full"
+  },
+  "input_seen_val": true,
+  "status": 200,
+  "invalid_request_status": 422,
+  "elapsed_seconds_single_request": 104.03,
+  "response": {
+    "call_id": "u2027_00048:call0000",
+    "facts": [
+      {
+        "object": {
+          "name": "кешбэк баллами",
+          "type": "service"
+        },
+        "attribute": "service_state",
+        "value": "работает нормально",
+        "polarity": 1,
+        "speaker": "client",
+        "valid_from": "2025-07-07",
+        "valid_to": "2026-07-11",
+        "source": {
+          "turn_idx": 1,
+          "span": [
+            101,
+            143
+          ],
+          "quote": null
+        },
+        "confirmed": true
+      },
+      {
+        "object": {
+          "name": "кешбэк баллами",
+          "type": "service"
+        },
+        "attribute": "service_state",
+        "value": "кешбэк баллами сломался",
+        "polarity": 1,
+        "speaker": "client",
+        "valid_from": "2026-07-11",
+        "valid_to": null,
+        "source": {
+          "turn_idx": 1,
+          "span": [
+            21,
+            49
+          ],
+          "quote": null
+        },
+        "confirmed": true
+      },
+      {
+        "object": {
+          "name": "Анастасия Валерьевна Прохорова",
+          "type": "client"
+        },
+        "attribute": "action",
+        "value": "клиент сообщила, что кешбэк баллами сломался, проблема была на прошлой неделе",
+        "polarity": 1,
+        "speaker": "client",
+        "valid_from": "2026-07-14",
+        "valid_to": null,
+        "source": {
+          "turn_idx": 1,
+          "span": null,
+          "quote": null
+        },
+        "confirmed": true
+      },
+      {
+        "object": {
+          "name": "Анастасия Валерьевна Прохорова",
+          "type": "client"
+        },
+        "attribute": "agreement",
+        "value": "оператор проверит детали и уточнит информацию клиенту",
+        "polarity": 1,
+        "speaker": "operator",
+        "valid_from": "2026-07-14",
+        "valid_to": null,
+        "source": {
+          "turn_idx": 2,
+          "span": null,
+          "quote": null
+        },
+        "confirmed": true
+      }
+    ]
+  },
+  "evidence_issue_count": 2
+}

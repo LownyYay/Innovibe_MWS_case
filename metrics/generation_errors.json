@@ -1,0 +1,98 @@
+{
+  "calls": 383,
+  "calls_with_generation_error": 0,
+  "generation_error_call_ids": [],
+  "model_parse_errors": 18,
+  "model_parse_error_records": [
+    {
+      "call_id": "u2027_00076:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00088:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00102:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00108:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00118:call0000",
+      "error": "day is out of range for month",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00120:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00219:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00249:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00252:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00254:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00261:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00284:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00288:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00289:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00318:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00329:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00347:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    },
+    {
+      "call_id": "u2027_00357:call0000",
+      "error": "Wrong proposal count",
+      "hit_token_limit": false
+    }
+  ]
+}
